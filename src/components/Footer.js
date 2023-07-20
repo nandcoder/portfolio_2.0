@@ -12,7 +12,7 @@ function Footer() {
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
-          <h5>Copyright © {year} NRJ</h5>
+          <h5 style={{ color: "white" }}>Copyright © {year} <a href="https://github.com/nandcoder/">NRJ</a></h5>
           <ul className="footer-icons">
             <li className="social-icons">
               <a
@@ -56,7 +56,7 @@ function Footer() {
             </li>
             
           </ul>
-          <p>Designed and Developed by <a href="https://github.com/soumyajit4419/Portfolio">Soumyajit</a></p>
+          <p style={{ color: "white" }}>CREDITS: Designed and Developed by <a href="https://github.com/soumyajit4419/Portfolio">Soumyajit</a></p>
 
       {/*<Row>
          <Col md="4" className="footer-copywright">
