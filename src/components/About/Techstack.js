@@ -10,13 +10,14 @@ import {
   DiMysql,
   DiHtml5,
   DiCss3Full,
+  DiTerminal,
 } from "react-icons/di";
 import {
   SiFirebase,
   SiNextdotjs,
   SiGooglecloud,
   SiTailwindcss,
-  SiGithub,
+  SiMui,
 } from "react-icons/si";
 
 function Techstack() {
@@ -47,6 +48,9 @@ function Techstack() {
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiMui />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -59,7 +63,7 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
+        <DiTerminal />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
