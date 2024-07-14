@@ -1,13 +1,13 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://nandcoder.vercel.app/" target="_blank">nandr.tech</a>
+  <a href="https://nandcoder.vercel.app/" target="_blank">nandcoder.vercel.app/</a>
 </h2>
 
 <br/>
 
 ## Built With
 
-My personal portfolio <a href="https://nandcoder.vercel.app/" target="_blank">nandr.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://nandcoder.vercel.app/" target="_blank">nandcoder.vercel.app/</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
