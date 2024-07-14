@@ -26,7 +26,7 @@ function Projects() {
               title="FinTracker"
               description="An app is made for splitting bills among users. The app uses Firebase Auth for authentication and Firestore database for storing data. Hence, provides better privacy and security."
               ghLink="https://github.com/nandcoder/fintracker"
-              demoLink="https://fintracker.tech/"
+              demoLink="https://fintracker-nrj.vercel.app/"
             />
           </Col>
 

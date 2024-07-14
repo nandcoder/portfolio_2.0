@@ -12,22 +12,42 @@ import {
   DiCss3Full,
   DiTerminal,
 } from "react-icons/di";
+import { FaJava } from "react-icons/fa6";
 import {
   SiFirebase,
-  SiNextdotjs,
   SiGooglecloud,
   SiTailwindcss,
   SiMui,
+  SiSpring,
+  SiSpringboot,
+  SiHibernate,
+  SiSelenium,
+  SiAzuredevops,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <FaJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <CgCPlusPlus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpring />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpringboot />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHibernate />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSelenium />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiHtml5 />
@@ -43,9 +63,6 @@ function Techstack() {
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMui />
@@ -66,6 +83,9 @@ function Techstack() {
         <DiTerminal />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiAzuredevops />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -76,10 +96,8 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
       </Col> */}
+
     </Row>
   );
 }

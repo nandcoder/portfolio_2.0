@@ -8,13 +8,11 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Nand Raj </span>
-            from <span className="purple"> NIT Jamshedpur</span>.
-            <br /> I am a <span className="purple">final year student</span> pursuing B.Tech in Electrical Engineering.
-            {/* at BIT Mesra. */}
+            Hi Everyone, I am <span className="purple">Nand Raj</span>, currently working as a <span className="purple">Software Engineer at BlackRock.</span>
+            <br /> 
+            I have completed my graduation from <span className="purple">NIT Jamshedpur</span> with a B.Tech in Electrical Engineering.
             <br />
-            Additionally, I am currently employed as a teaching assistant at <span className="purple">Testbook.com</span>.
-            <br />
+            Additionally, I have experience <span className="purple"> tutoring students in MERN-based</span> web development and have worked on various MERN-based projects.
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
